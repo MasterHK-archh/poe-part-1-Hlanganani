@@ -67,7 +67,7 @@ namespace greeting_and_prompting
                 Console.ResetColor();
                 return false;
             }
-
+            // check if the name contains only letters
             foreach (char c in username)
             {
                 if (!char.IsLetter(c))
