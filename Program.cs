@@ -16,8 +16,7 @@ namespace greeting_and_prompting
 
             new greet_voice() { };
 
-            //instance for the logo class with a constructor
-            new logo() { };
+            
 
             //creating an instance for the class greet_and_name
             //with an object name greeting_and_name
