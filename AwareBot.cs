@@ -20,6 +20,8 @@ namespace greeting_and_prompting
             reply.Add("it is important to use safe websites");
             reply.Add("Protect your informmation");
             reply.Add("Avoid suspicious links");
+            reply.Add("Always enable two-factor authentication for your accounts");
+            reply.Add("Never share your personal information with untrusted sources");
 
             //add some ignoring words to the array list.
             Console.ForegroundColor = ConsoleColor.Blue;
@@ -34,7 +36,7 @@ namespace greeting_and_prompting
             Console.WriteLine("NANI_CYBERSECURITY: " + "Hey " + name + ", How can I assist you today?");
             Console.WriteLine("AwarenessBot:Type 'exit' to stop.\n");
 
-            //DO WHILE LOOP
+            //DO WHILE LOOP 
             do
             {
                 Console.ForegroundColor = ConsoleColor.Green;
