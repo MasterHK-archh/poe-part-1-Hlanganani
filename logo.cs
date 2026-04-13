@@ -1,6 +1,6 @@
 ﻿namespace greeting_and_prompting
 {
-    internal class logo
+    internal class Logo
     {
         public logo()
         {
